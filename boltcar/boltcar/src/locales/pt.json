@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Início",
+    "inventory": "Inventário",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "home": {
+    "hero": {
+      "title": "Compre Carros",
+      "titleHighlight": "Elétricos Usados",
+      "titleSuffix": "Confiáveis",
+      "sellCars": "Vender Carros",
+      "contactWhatsApp": "Contato no WhatsApp"
+    },
+    "trust": {
+      "verifiedTitle": "Apenas Veículos Verificados",
+      "verifiedDesc": "Cada carro passa por inspeção de 150 pontos",
+      "inspectionPass": "100% Aprovado na Inspeção",
+      "customerRating": "Avaliação 5.0 dos Clientes",
+      "batteryTitle": "Saúde da Bateria",
+      "batteryDesc": "Mínimo de 90% de saúde da bateria garantido",
+      "fastCharging": "Suporte para Carregamento Rápido",
+      "certifiedBattery": "Relatório de Bateria Certificado"
+    },
+    "features": {
+      "title": "Por que escolher BoltCars.pt?",
+      "subtitle": "Preços transparentes, sem surpresas",
+      "noHiddenFees": {
+        "title": "Sem Taxas Ocultas",
+        "desc": "O que você vê é o que você paga. Preços transparentes sem surpresas."
+      },
+      "qualityAssurance": {
+        "title": "Garantia de Qualidade",
+        "desc": "Cada veículo passa nosso processo abrangente de inspeção de 150 pontos."
+      },
+      "fastDelivery": {
+        "title": "Entrega Rápida",
+        "desc": "Entrega rápida e confiável para sua localização dentro de 48 horas."
+      }
+    },
+    "sustainability": {
+      "title": "Relatório de Sustentabilidade",
+      "description": "Cada VE comprado através da BoltCars.pt ajuda a reduzir as emissões de CO2 em uma média de 4,6 toneladas métricas por ano. Juntos, nossa comunidade impediu que mais de 50.000 toneladas de CO2 entrassem na atmosfera.",
+      "co2Saved": "Toneladas de CO2 Economizadas",
+      "evsSold": "VEs Vendidos",
+      "renewableEnergy": "Energia Renovável",
+      "readImpact": "Leia nosso impacto 2024"
+    }
+  },
+  "inventory": {
+    "title": "Inventário de VEs",
+    "vehiclesAvailable": "veículos disponíveis",
+    "sortBy": "Ordenar por: Últimas Chegadas",
+    "priceLowHigh": "Preço: Menor para Maior",
+    "priceHighLow": "Preço: Maior para Menor",
+    "mileageLowHigh": "Quilometragem: Menor para Maior",
+    "sellYourVehicle": "Venda Seu Veículo",
+    "sellDescription": "Obtenha o melhor valor para seu VE usado com nosso marketplace confiável",
+    "getStarted": "Começar"
+  },
+  "contact": {
+    "title": "Vamos Conduzir o",
+    "titleHighlight": "Futuro",
+    "titleSuffix": "Juntos.",
+    "subtitle": "Tem perguntas sobre nossa frota elétrica ou luxo sustentável? Nossa equipe de concierge está pronta para ajudá-lo a encontrar sua combinação perfeita.",
+    "getInTouch": "Entre em Contato",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudá-lo hoje?",
+    "sendMessage": "Enviar Mensagem →",
+    "chatWhatsApp": "Conversar no WhatsApp",
+    "instantReply": "Resposta instantânea durante o horário comercial",
+    "directContact": "CONTATO DIRETO",
+    "companyName": "BoltCars.pt",
+    "companyDescription": "Marketplace de VEs de luxo sustentável.",
+    "platform": "Plataforma",
+    "company": "Empresa",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "cookieSettings": "Configurações de Cookies",
+    "sustainabilityReport": "Relatório de Sustentabilidade",
+    "contactUs": "Entre em Contato",
+    "aboutGallery": "Galeria Sobre",
+    "copyright": "© 2024 BoltCars.pt. Todos os direitos reservados."
+  },
+  "footer": {
+    "brandDescription": "Marketplace de VEs de luxo sustentável",
+    "platform": "Plataforma",
+    "company": "Empresa",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "cookieSettings": "Configurações de Cookies",
+    "sustainabilityReport": "Relatório de Sustentabilidade",
+    "contactUs": "Entre em Contato",
+    "aboutGallery": "Galeria Sobre",
+    "copyright": "© 2024 BoltCars.pt. Todos os direitos reservados."
+  }
+}

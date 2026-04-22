@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "inventory": "Inventory",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Buy Trusted",
+      "titleHighlight": "Used Electric",
+      "titleSuffix": "Cars",
+      "sellCars": "Sell Cars",
+      "contactWhatsApp": "Contact on WhatsApp"
+    },
+    "trust": {
+      "verifiedTitle": "Verified Vehicles Only",
+      "verifiedDesc": "Every car undergoes 150-point inspection",
+      "inspectionPass": "100% Inspection Pass",
+      "customerRating": "5.0 Customer Rating",
+      "batteryTitle": "Battery Health",
+      "batteryDesc": "Minimum 90% battery health guaranteed",
+      "fastCharging": "Fast Charging Support",
+      "certifiedBattery": "Certified Battery Report"
+    },
+    "features": {
+      "title": "Why Choose BoltCars.pt?",
+      "subtitle": "Transparent pricing, no surprises",
+      "noHiddenFees": {
+        "title": "No Hidden Fees",
+        "desc": "What you see is what you pay. Transparent pricing with no surprises."
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "desc": "Every vehicle passes our comprehensive 150-point inspection process."
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "desc": "Quick and reliable delivery to your location within 48 hours."
+      }
+    },
+    "sustainability": {
+      "title": "Sustainability Report",
+      "description": "Every EV purchased through BoltCars.pt helps reduce CO2 emissions by an average of 4.6 metric tons per year. Together, our community has prevented over 50,000 tons of CO2 from entering the atmosphere.",
+      "co2Saved": "Tons CO2 Saved",
+      "evsSold": "EVs Sold",
+      "renewableEnergy": "Renewable Energy",
+      "readImpact": "Read our impact 2024"
+    }
+  },
+  "inventory": {
+    "title": "EV Inventory",
+    "vehiclesAvailable": "vehicles available",
+    "sortBy": "Sort by: Latest Arrivals",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "mileageLowHigh": "Mileage: Low to High",
+    "sellYourVehicle": "Sell Your Vehicle",
+    "sellDescription": "Get the best value for your used EV with our trusted marketplace",
+    "getStarted": "Get Started"
+  },
+  "contact": {
+    "title": "Let's Drive the",
+    "titleHighlight": "Future",
+    "titleSuffix": "Together.",
+    "subtitle": "Have questions about our electric fleet or sustainable luxury? Our concierge team is ready to assist you in finding your perfect match.",
+    "getInTouch": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you today?",
+    "sendMessage": "Send Message →",
+    "chatWhatsApp": "Chat on WhatsApp",
+    "instantReply": "Instant reply during business hours",
+    "directContact": "DIRECT CONTACT",
+    "companyName": "BoltCars.pt",
+    "companyDescription": "Sustainable luxury EV marketplace.",
+    "platform": "Platform",
+    "company": "Company",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookieSettings": "Cookie Settings",
+    "sustainabilityReport": "Sustainability Report",
+    "contactUs": "Contact Us",
+    "aboutGallery": "About Gallery",
+    "copyright": "© 2024 BoltCars.pt. All rights reserved."
+  },
+  "footer": {
+    "brandDescription": "Sustainable luxury EV marketplace",
+    "platform": "Platform",
+    "company": "Company",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookieSettings": "Cookie Settings",
+    "sustainabilityReport": "Sustainability Report",
+    "contactUs": "Contact Us",
+    "aboutGallery": "About Gallery",
+    "copyright": "© 2024 BoltCars.pt. All rights reserved."
+  }
+}
