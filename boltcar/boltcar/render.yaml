@@ -1,0 +1,42 @@
+services:
+  # Backend API Service
+  - type: web
+    name: boltcar-backend
+    env: node
+    repo: https://github.com/Rishabh2155/Bolt.git
+    rootDir: boltcar/backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+    healthCheckPath: /api/cars
+
+  # Frontend Service
+  - type: web
+    name: boltcar-frontend
+    env: static
+    repo: https://github.com/Rishabh2155/Bolt.git
+    rootDir: boltcar
+    buildCommand: npm install && npm run build
+    publishDir: boltcar/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://boltcar-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /.*
+        destination: /index.html
+
+databases:
+  # MongoDB Database
+  - name: boltcar-db
+    databaseName: boltcar
+    user: boltcar
+    plan: free
