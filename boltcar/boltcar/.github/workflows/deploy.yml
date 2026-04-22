@@ -1,10 +1,10 @@
-name: Deploy BoltCars.pt
+name: Deploy BoltCar
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
@@ -19,16 +19,19 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
         
-    - name: Install dependencies
+    - name: Install frontend dependencies
       run: npm ci
+      working-directory: ./boltcar
       
-    - name: Build application
+    - name: Build frontend application
       run: npm run build
+      working-directory: ./boltcar
       
-    - name: Upload to GitHub Pages
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+      if: github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+        publish_dir: ./boltcar/dist
