@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 const CarCard = ({ car, variant = 'default' }) => {
 
   return (
-    <Link 
-      to={`/car/${car.id}`}
+    <div 
       className={`block bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${
         variant === 'community' ? 'border border-gray-100' : ''
       }`}
@@ -51,7 +49,7 @@ const CarCard = ({ car, variant = 'default' }) => {
         </div>
 
       </div>
-    </Link>
+    </div>
   )
 }
 
