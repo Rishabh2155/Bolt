@@ -4,7 +4,7 @@ services:
     name: boltcar-backend
     env: node
     repo: https://github.com/Rishabh2155/Bolt.git
-    rootDir: boltcar/backend
+    rootDir: boltcar/boltcar/backend
     buildCommand: npm install
     startCommand: npm start
     envVars:
@@ -24,7 +24,7 @@ services:
     name: boltcar-frontend
     env: static
     repo: https://github.com/Rishabh2155/Bolt.git
-    rootDir: boltcar
+    rootDir: boltcar/boltcar
     buildCommand: npm run build
     staticPublishPath: dist
     envVars:
