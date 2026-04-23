@@ -6,7 +6,7 @@ import Button from '../components/Button'
 import { useLanguage } from '../contexts/LanguageContext'
 
 // API base URL
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : 'http://localhost:5001/api'
 
 const Inventory = () => {
   const { t } = useLanguage()
@@ -23,8 +23,15 @@ const Inventory = () => {
     const fetchCars = async () => {
       try {
         setLoading(true)
+        console.log('Fetching cars from:', `${API_BASE_URL}/cars`)
         const response = await fetch(`${API_BASE_URL}/cars`)
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
+        
         const result = await response.json()
+        console.log('API Response:', result)
         
         if (result.success) {
           setCars(result.data)
