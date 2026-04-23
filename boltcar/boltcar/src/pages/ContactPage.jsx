@@ -78,7 +78,7 @@ const ContactPage = () => {
                   <div className="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center">
                     <span className="text-blue-600 text-xs">✉</span>
                   </div>
-                  <span className="text-gray-700 text-sm sm:text-base">concierge@boltcar.com</span>
+                  <span className="text-gray-700 text-sm sm:text-base">contact@boltcars.pt</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center">

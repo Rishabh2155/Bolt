@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(
-      'mongodb+srv://rishabh2155be22_db_user:IhrDhNsbeNkfhoRX@cluster0.vy1drz6.mongodb.net/?appName=Cluster0',
+      process.env.MONGODB_URI,
       {
         dbName: 'boltcar',
         useNewUrlParser: true,
