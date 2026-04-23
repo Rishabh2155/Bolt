@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 // Middleware
-app.use(helmet());
+// app.use(helmet()); // Temporarily disabled to fix CSP issues
 app.use(cors({
   origin: ['https://boltcar-frontend.onrender.com', 'http://localhost:3001'],
   credentials: true
