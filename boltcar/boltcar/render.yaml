@@ -29,7 +29,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://api.boltcars.pt/api
+        value: https://boltcar-backend-05su.onrender.com/api
     routes:
       - type: rewrite
         source: /api/(.*)
