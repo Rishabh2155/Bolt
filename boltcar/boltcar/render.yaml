@@ -13,7 +13,7 @@ services:
       - key: PORT
         value: 5001
       - key: MONGODB_URI
-        value: mongodb+srv://boltcarnew:boltcar12345@cluster0.8jnyboz.mongodb.net/?appName=Cluster0
+        value: mongodb+srv://boltcar:boltcar9878@cluster0.je4iyip.mongodb.net/?appName=Cluster0
       - key: JWT_SECRET
         generateValue: true
       - key: UPLOAD_PATH
@@ -29,7 +29,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://boltcar-backend-05su.onrender.com/api
+        value: https://api.boltcars.pt/api
     routes:
       - type: rewrite
         source: /api/(.*)
